@@ -23,7 +23,7 @@ logger = setup_logger(
 )
 version = 5
 text_build_model = ["basic1", "basic2", "QA", "entity_marked1", "entity_marked2"]
-model_name = r"dmis-lab/biobert-base-cased-v1.2"
+model_name = r"hfl/chinese-roberta-wwm-ext"
 
 
 # 读取jsonl文件
