@@ -1,4 +1,4 @@
-# 基于预训练BERT的中文医疗关系抽取实践
+# **基于预训练BERT的中文医疗关系抽取实践**
 
 ## 介绍
 
@@ -29,6 +29,7 @@
 }
 ```
 
+
 ## 环境配置
 
 * pytorch
@@ -36,11 +37,13 @@
 * scikit-learn
 * Other common packages
 
+
 ## 食用方法
 
 1. 配置环境
 2. 运行 python train.py 进行训练，训练好的模型保存在checkpoint路径下。
 3. 运行 python test.py 进行测试。
+
 
 ## 代码实现思路
 
